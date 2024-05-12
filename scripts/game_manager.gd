@@ -7,4 +7,3 @@ var score:int = 0;
 func add_point():
 	score += 1;
 	score_label.text = "Great job!\n" + "You collected\n" + str(score) + "coins.";
-	print(score);
